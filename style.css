@@ -1,0 +1,20 @@
+*{
+  background: #490d8e;
+  font-family: monospace;
+  font-weight: bold;
+}
+input{
+  border: 1px solid #742aff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+}
+input:active{
+  background: #190150;
+}
+.btn{
+  background: #43ff91;
+  color: #2c0586;
+}
