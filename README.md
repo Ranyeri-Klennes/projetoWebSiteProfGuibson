@@ -1,4 +1,4 @@
-# **ATIVIDDADE FINAL DO PROFESSOR GIBSON** 
+# **ATIVIDADE FINAL DO PROFESSOR GIBSON** 
 **O site deve possuir:**
 - Um Site com no mínimo 4 páginas
 - Imagens
