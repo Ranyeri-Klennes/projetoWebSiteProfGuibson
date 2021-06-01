@@ -1,12 +1,17 @@
-body, html {
-  background: var(--cor1);
-  font-family: 'Space Mono', monospace;
+body,html {
+  background-color: var(--cor1);
+}
+
+*{
+font-family: 'Space Mono', monospace;
 }
 
 #header{
   width: 100%;
   background-color: transparent;
   transition: background ease-out 0.2s;
+  background-color: var(--cor2);
+  letter-spacing: 1.5px;
 }
 
 #header .navbar-collapse{
@@ -17,13 +22,12 @@ body, html {
   text-transform: uppercase;
   padding-left: 0;
   padding-right: 0;
-  margin-right: 15px;
-  margin-left: 15px;
-  color: black;
   border-bottom: solid 4px transparent;
+  color: var(--cor1);
 }
 
 #header .nav-link:hover{
-  border-bottom: solid 4px var(--cor2); 
-  color: var(--cor2);
+  border-bottom: solid 4px var(--cor6);
+  color: var(--cor6);
+
 }
