@@ -1,3 +1,19 @@
+/* h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+} */
+
+.title{
+  font-weight: bold;
+}
+
+.subtitle{
+  color: var(--cor6);
+}
+
+.block{
+ margin-bottom: 50px; 
+}
+
 .button {
   text-transform: lowercase;
   font-weight: 500;
@@ -5,12 +21,24 @@
   padding-left: 1.4rem;
 }
 
-.button-primay {
-  background-color: var(--cor3);
-  border-color: var(--cor3);
-}
 
-.button-primay:hover {
-  background-color: var(--cor2);
-  border-color: var(--cor2);
+/* INICIO BOTÕES SLIDER */
+.button-primary {
+  background-color: var(--cor3)!important;
+  border-color: var(--cor3)!important;
 }
+.button-primary:hover {
+  background-color: var(--cor2)!important;
+  border-color: var(--cor2)!important;
+}
+.button-primary-outline {
+  border-color: var(--cor3)!important;
+  color: var(--cor3)!important;
+}
+.button-primary-outline:hover {
+  background-color: var(--cor2)!important;
+  border-color: var(--cor2)!important;
+  color: #fff!important;
+}
+/* FIM BOTÕES SLIDERS */
+

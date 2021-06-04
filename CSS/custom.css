@@ -1,17 +1,14 @@
-body,html {
-  background-color: var(--cor1);
-}
-
 *{
-font-family: 'Space Mono', monospace;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 1.5px;
+  zoom: 98%
 }
 
 #header{
   width: 100%;
   background-color: transparent;
   transition: background ease-out 0.2s;
-  background-color: var(--cor2);
-  letter-spacing: 1.5px;
+  /* border-bottom: solid .1px var(--cor6); */
 }
 
 #header .navbar-collapse{
@@ -23,11 +20,20 @@ font-family: 'Space Mono', monospace;
   padding-left: 0;
   padding-right: 0;
   border-bottom: solid 4px transparent;
-  color: var(--cor1);
+  color: var(--cor2);
 }
 
 #header .nav-link:hover{
   border-bottom: solid 4px var(--cor6);
   color: var(--cor6);
+}
 
+#slider{
+  background: url(https://www.pngkit.com/png/full/903-9032772_afternoon2-1457384916-gradient-color-background-blue-white.png) no-repeat center bottom;
+  background-size: 100%;
+}
+
+#slider h4{
+  margin-bottom: 5%;
+  font-size: 20px;
 }
