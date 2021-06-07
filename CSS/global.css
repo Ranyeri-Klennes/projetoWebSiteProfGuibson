@@ -1,17 +1,19 @@
-/* h1,h2,h3,h4,h5,h6{
-  font-weight: 700;
-} */
-
 .title{
   font-weight: bold;
+  color: var(--cor2)
 }
 
-.subtitle{
-  color: var(--cor6);
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: var(--cor6) !important;
+  text-decoration: none !important;
 }
 
 .block{
- margin-bottom: 50px; 
+ margin-bottom: 50px;
 }
 
 .button {
@@ -41,4 +43,3 @@
   color: #fff!important;
 }
 /* FIM BOTÕES SLIDERS */
-
